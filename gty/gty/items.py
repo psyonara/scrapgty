@@ -8,7 +8,9 @@
 import scrapy
 
 
-class GtyItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class SermonItem(scrapy.Item):
+    title = scrapy.Field()
+    date_preached = scrapy.Field()
+    scripture = scrapy.Field()
+    ref = scrapy.Field()
+    link = scrapy.Field()
