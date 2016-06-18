@@ -14,7 +14,7 @@ pycparser==2.14
 pycrypto==2.6.1
 PyDispatcher==2.0.5
 pyOpenSSL==16.0.0
-python-scriptures==2.2.1
+python-dateutil==2.5.3
 queuelib==1.4.2
 Scrapy==1.1.0
 service-identity==16.0.0
