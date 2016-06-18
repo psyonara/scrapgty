@@ -9,6 +9,7 @@ import scrapy
 
 
 class SermonItem(scrapy.Item):
+    book = scrapy.Field()
     title = scrapy.Field()
     date_preached = scrapy.Field()
     scripture = scrapy.Field()
